@@ -1,6 +1,11 @@
 # Bug Reproduction
 
+https://github.com/MatAtBread/fast-async/issues/56#issuecomment-384581870
+
+Tested with Node v10 + NPM v6 on macOS 10.13.4
+
 ```
+$ npm install
 $ node_modules/.bin/babel entry.js
 TypeError: Cannot read property 'length' of undefined
     at Buffer._append (/Users/swerner/test-async-babel/node_modules/@babel/generator/lib/buffer.js:115:26)
